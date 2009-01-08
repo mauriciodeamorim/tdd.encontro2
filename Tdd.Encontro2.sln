@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tdd.Encontro2", "Tdd.Encontro2\Tdd.Encontro2.csproj", "{2AF6DBAF-3167-4201-B623-FF3139CA9E54}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tdd.Encontro2.Test", "Tdd.Encontro2.Test\Tdd.Encontro2.Test.csproj", "{36B6254E-8466-44A6-9AD3-99241E8BE6B5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{B306390B-F576-4AB6-BDAD-8785369A47DD}"
+	ProjectSection(SolutionItems) = preProject
+		LocalTestRun.testrunconfig = LocalTestRun.testrunconfig
+		Tdd.Encontro2.vsmdi = Tdd.Encontro2.vsmdi
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(TestCaseManagementSettings) = postSolution
+		CategoryFile = Tdd.Encontro2.vsmdi
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2AF6DBAF-3167-4201-B623-FF3139CA9E54}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2AF6DBAF-3167-4201-B623-FF3139CA9E54}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2AF6DBAF-3167-4201-B623-FF3139CA9E54}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2AF6DBAF-3167-4201-B623-FF3139CA9E54}.Release|Any CPU.Build.0 = Release|Any CPU
+		{36B6254E-8466-44A6-9AD3-99241E8BE6B5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{36B6254E-8466-44A6-9AD3-99241E8BE6B5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{36B6254E-8466-44A6-9AD3-99241E8BE6B5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{36B6254E-8466-44A6-9AD3-99241E8BE6B5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
