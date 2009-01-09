@@ -1,0 +1,9 @@
+D:\Projetos\Lab\Tdd.Encontro2\Tdd.Encontro2.Test\bin\Debug\Tdd.Encontro2.Test.dll
+D:\Projetos\Lab\Tdd.Encontro2\Tdd.Encontro2.Test\bin\Debug\Tdd.Encontro2.Test.pdb
+D:\Projetos\Lab\Tdd.Encontro2\Tdd.Encontro2.Test\bin\Debug\Tdd.Encontro2.dll
+D:\Projetos\Lab\Tdd.Encontro2\Tdd.Encontro2.Test\bin\Debug\Tdd.Encontro2.pdb
+D:\Projetos\Lab\Tdd.Encontro2\Tdd.Encontro2.Test\bin\Debug\Tdd.Encontro2_Accessor.dll
+D:\Projetos\Lab\Tdd.Encontro2\Tdd.Encontro2.Test\bin\Debug\Tdd.Encontro2_Accessor.pdb
+D:\Projetos\Lab\Tdd.Encontro2\Tdd.Encontro2.Test\obj\Debug\ResolveAssemblyReference.cache
+D:\Projetos\Lab\Tdd.Encontro2\Tdd.Encontro2.Test\obj\Debug\Tdd.Encontro2.Test.dll
+D:\Projetos\Lab\Tdd.Encontro2\Tdd.Encontro2.Test\obj\Debug\Tdd.Encontro2.Test.pdb
