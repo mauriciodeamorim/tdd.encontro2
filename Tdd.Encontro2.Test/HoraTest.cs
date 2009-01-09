@@ -147,58 +147,6 @@ namespace Tdd.Encontro2.Test
         }
 
         [TestMethod]
-        public void Soma_Horas_Com_Um_Digito()
-        {
-            Hora hora = new Hora("3:00");
-            hora.SomaHoras("5:00");
-
-            Assert.AreEqual<string>("8:00", hora.ToString());
-        }
-
-        [TestMethod]
-        public void Soma_Horas_Com_Mais_De_Um_Digito()
-        {
-            Hora hora = new Hora("1234:00");
-            hora.SomaHoras("6:00");
-
-            Assert.AreEqual<string>("1240:00", hora.ToString());        
-        }
-
-        [TestMethod]
-        public void Soma_Horas_Com_Valor_Negativo()
-        {
-            Hora hora = new Hora("333:00");
-            hora.SomaHoras("-3:00");
-
-            Assert.AreEqual<string>("330:00", hora.ToString());
-        }
-
-        [TestMethod]
-        public void Soma_Horas_Com_Minutos()
-        {
-            Hora hora = new Hora("1:10");
-            hora.SomaHoras("2:15");
-
-            Assert.AreEqual<string>("3:25", hora.ToString());
-        }
-
-        [TestMethod]
-        public void Soma_Horas_Formato_Invalido()
-        {
-            try
-            {
-                Hora hora = new Hora("1:10");
-                hora.SomaHoras("2-15");
-
-                Assert.Fail("O formato '2-15' é inválido. Uma ArgumentException deveria ser lançada.");
-            }
-            catch (ArgumentException e)
-            {
-                Assert.AreEqual<string>("Formato de Hora inválido: 2-15", e.Message);
-            }
-        }
-
-        [TestMethod]
         [DeploymentItem("Tdd.Encontro2.dll")]
         public void Validar_Hora_Informando_Hora_E_Minuto()
         {
@@ -280,6 +228,60 @@ namespace Tdd.Encontro2.Test
                 Assert.AreEqual<string>("Formato de Hora inválido: 5:60", e.Message);
             }
         }
+
+        [TestMethod]
+        public void Soma_Horas_Com_Um_Digito()
+        {
+            Hora hora = new Hora("3:00");
+            hora.SomaHoras("5:00");
+
+            Assert.AreEqual<string>("8:00", hora.ToString());
+        }
+
+        [TestMethod]
+        public void Soma_Horas_Com_Mais_De_Um_Digito()
+        {
+            Hora hora = new Hora("1234:00");
+            hora.SomaHoras("6:00");
+
+            Assert.AreEqual<string>("1240:00", hora.ToString());        
+        }
+
+        [TestMethod]
+        public void Soma_Horas_Com_Valor_Negativo()
+        {
+            Hora hora = new Hora("333:00");
+            hora.SomaHoras("-3:00");
+
+            Assert.AreEqual<string>("330:00", hora.ToString());
+        }
+
+        [TestMethod]
+        public void Soma_Horas_Com_Minutos()
+        {
+            Hora hora = new Hora("1:10");
+            hora.SomaHoras("2:15");
+
+            Assert.AreEqual<string>("3:25", hora.ToString());
+        }
+
+        [TestMethod]
+        public void Soma_Horas_Formato_Invalido()
+        {
+            try
+            {
+                Hora hora = new Hora("1:10");
+                hora.SomaHoras("2-15");
+
+                Assert.Fail("O formato '2-15' é inválido. Uma ArgumentException deveria ser lançada.");
+            }
+            catch (ArgumentException e)
+            {
+                Assert.AreEqual<string>("Formato de Hora inválido: 2-15", e.Message);
+            }
+        }
+
+
 
         //TODO: Next step - To add one hour in Hora when the minutes are greaters that 59
         //[TestMethod]
