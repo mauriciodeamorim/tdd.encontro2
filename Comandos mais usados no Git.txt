@@ -1,0 +1,60 @@
+Tutoriais
+http://www.spheredev.org/wiki/Git_for_the_lazy
+Um resumo visual dos comandos
+http://ktown.kde.org/~zrusin/git/git-cheat-sheet-medium.png
+
+
+0) Instale e configure o Git
+1) No terminal (Git Bash) entre na pasta onde será criado o seu projeto (Ex.: C:\Projetos) e digite:
+<pre><code>git clone git://github.com/nome_usuario_github/nome_projeto.git</code></pre>
+2) Entre na pasta do projeto que foi adicionada e crie um <em>branch</em> chamado working:
+<pre><code>cd nome_projeto</code>
+<code>git branch working master</code></pre>
+
+
+branch = ramificação
+stash = acumular
+
+git clone git://github.com/nome_usuario_github/nome_projeto.git
+
+git branch working master
+
+>>git add 'nome_arquivo.txt'
+Forma de adicionar um arquivo pelo nome
+
+>>git branch meu_branch
+Cria o meu_branch
+
+>>git branch -d meu_branch
+Apaga meu_branch
+Não possível apagá-lo entando dentro dele
+
+>>git checkout meu_branch
+Muda para o meu_branch
+
+>>git checkout -b novo_branch
+Cria um novo_branch e entra nele
+
+
+
+
+
+>>git merge meu_branch
+O merge pega as alterações do meu_branch e joga para o master 
+(ou para branch onde vc estiver)
+
+
+>>git stash
+É com local temporário e podem ser vários ao mesmo tempo com nomes diferentes
+
+>>git stash apply
+Traz o estiver no stash de volta
+
+>>git stash clear
+Limpo o que estiver no stash
+
+>>git rebase master
+O "rebase" volta todos os commits do seu branch atual para pegar
+o que tem de novo no master e depois aplica todos os commits novamente
+até chegar onde você está.
+
