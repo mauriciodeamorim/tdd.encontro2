@@ -1,14 +1,16 @@
 Problema
 
-Representar as horas dos estudantes de uma faculdade. ComeÁar com um item simples em uma checklist:
+Representar as horas dos estudantes de uma faculdade. Come√ßar por um item simples e incrementar a cada passo.
 
-# Representar uma hora qualquer no formato hh:mm
-# Permitir a criaÁ„o de uma hora padr„o ("00:00")
-# N„o permitir que se crie uma hora fora do formato hh:mm
-# Pode haver uma hora do tipo h:mm
-# Pode representar horas acima de 23:59, ent„o uma hora como 300:00 È v·lida
-# Horas negativas s„o v·lidas
-# Deve ser possÌvel fazer soma de horas
+Passos:
+1) Representar uma hora qualquer no formato hh:mm
+2) Permitir a cria√ß√£o de uma hora padr√£o ("00:00")
+3) N√£o permitir cria√ß√£o de uma hora fora do formato hh:mm
+4) Pode haver uma hora do tipo h:mm
+5) Pode representar horas acima de 23:59, ent√£o uma hora como 300:00 √© v√°lida
+6) Horas negativas s√£o v√°lidas.  Ex.: -36:00
+7) Deve ser poss√≠vel fazer soma de horas
+8) Informar horas do aluno para cada m√™s e exibir a soma 
 
 
 
