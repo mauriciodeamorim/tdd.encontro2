@@ -1,0 +1,13 @@
+# Projeto TDD.Encontro2
+ 
+Tdd.Encontro2/bin
+Tdd.Encontro2/obj/
+Tdd.Encontro2.Test/bin/
+Tdd.Encontro2.Test/obj/
+
+tmp/
+dist/
+*.user
+*.suo
+_ReSharper.*
+*.sln.cache

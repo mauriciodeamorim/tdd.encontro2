@@ -1,2 +1,18 @@
-Cópia do arquivo
-README
+Problema
+
+Representar as horas dos estudantes de uma faculdade. Começar com um item simples em uma checklist:
+
+# Representar uma hora qualquer no formato hh:mm
+# Permitir a criação de uma hora padrão ("00:00")
+# Não permitir que se crie uma hora fora do formato hh:mm
+# Pode haver uma hora do tipo h:mm
+# Pode representar horas acima de 23:59, então uma hora como 300:00 é válida
+# Horas negativas são válidas
+# Deve ser possível fazer soma de horas
+
+
+
+http://dojofloripa.wordpress.com/2007/09/10/tudo-sobre-tdd/
+http://dojofloripa.wordpress.com/2006/11/09/exemplo-tdd-parte-1-por-onde-comecar/
+http://dojofloripa.wordpress.com/2006/11/13/exemplo-tdd-parte-2-baby-steps-e-tratamento-de-excecoes/
+http://dojofloripa.wordpress.com/2006/12/01/exemplo-tdd-parte-3-corrigindo-bugs/
