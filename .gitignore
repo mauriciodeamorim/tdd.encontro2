@@ -11,3 +11,6 @@ dist/
 *.suo
 _ReSharper.*
 *.sln.cache
+*.pdb
+*.dll
+*.FileListAbsolute.txt
