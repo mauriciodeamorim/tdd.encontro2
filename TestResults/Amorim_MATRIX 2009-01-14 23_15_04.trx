@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="ee4a0c64-7464-4ab1-b944-631b30738137" name="Amorim@MATRIX 2009-01-14 23:15:04" runUser="MATRIX\Amorim" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2006">
+  <TestRunConfiguration name="Local Test Run" id="4397c35c-ee65-48a5-a4f6-c7715260277b">
+    <Description>This is a default test run configuration for a local test run.</Description>
+    <Deployment runDeploymentRoot="D:\Projetos\Lab\Tdd.Encontro2\TestResults\Amorim_MATRIX 2009-01-14 23_15_04">
+      <DeploymentItem filename="D:\Projetos\Lab\Tdd.Encontro2\Tdd.Encontro2\bin\Debug\Tdd.Encontro2.dll" />
+    </Deployment>
+    <TestTypeSpecific />
+  </TestRunConfiguration>
+  <ResultSummary outcome="Failed">
+    <Counters total="1" executed="1" error="0" failed="1" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" passed="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <Times creation="2009-01-14T23:15:04.9843750-02:00" queuing="2009-01-14T23:15:05.2187500-02:00" start="2009-01-14T23:15:05.2500000-02:00" finish="2009-01-14T23:15:05.3437500-02:00" />
+  <TestDefinitions>
+    <UnitTest name="Soma_Horas_Com_Minutos_Acima_De_59_Minutos" storage="d:\projetos\lab\tdd.encontro2\tdd.encontro2.test\bin\debug\tdd.encontro2.test.dll" id="0a591512-9faf-3076-fdd8-955ee8ae9da1">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="a7911472-f906-4765-a315-420733094a4d" />
+      <TestMethod codeBase="D:\Projetos\Lab\Tdd.Encontro2\Tdd.Encontro2.Test\bin\Debug\Tdd.Encontro2.Test.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Tdd.Encontro2.Test.HoraTest, Tdd.Encontro2.Test" name="Soma_Horas_Com_Minutos_Acima_De_59_Minutos" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="0a591512-9faf-3076-fdd8-955ee8ae9da1" executionId="a7911472-f906-4765-a315-420733094a4d" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="a7911472-f906-4765-a315-420733094a4d" testId="0a591512-9faf-3076-fdd8-955ee8ae9da1" testName="Soma_Horas_Com_Minutos_Acima_De_59_Minutos" computerName="MATRIX" duration="00:00:00.0116386" startTime="2009-01-14T23:15:05.2500000-02:00" endTime="2009-01-14T23:15:05.3281250-02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method Tdd.Encontro2.Test.HoraTest.Soma_Horas_Com_Minutos_Acima_De_59_Minutos threw exception:  System.ArgumentException: Formato de Hora inválido: 1:62.</Message>
+          <StackTrace>    at Tdd.Encontro2.Hora.ValidarHora(String hora) in D:\Projetos\Lab\Tdd.Encontro2\Tdd.Encontro2\Hora.cs:line 48
+   at Tdd.Encontro2.Hora..ctor(String hora) in D:\Projetos\Lab\Tdd.Encontro2\Tdd.Encontro2\Hora.cs:line 20
+   at Tdd.Encontro2.Test.HoraTest.Soma_Horas_Com_Minutos_Acima_De_59_Minutos() in D:\Projetos\Lab\Tdd.Encontro2\Tdd.Encontro2.Test\HoraTest.cs:line 287
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>

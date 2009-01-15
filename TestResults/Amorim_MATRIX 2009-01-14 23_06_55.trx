@@ -1,0 +1,376 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="642226b8-e447-4577-b29d-73ace4cfa226" name="Amorim@MATRIX 2009-01-14 23:06:55" runUser="MATRIX\Amorim" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2006">
+  <TestRunConfiguration name="Local Test Run" id="4397c35c-ee65-48a5-a4f6-c7715260277b">
+    <Description>This is a default test run configuration for a local test run.</Description>
+    <Deployment runDeploymentRoot="D:\Projetos\Lab\Tdd.Encontro2\TestResults\Amorim_MATRIX 2009-01-14 23_06_55">
+      <DeploymentItem filename="D:\Projetos\Lab\Tdd.Encontro2\Tdd.Encontro2\bin\Debug\Tdd.Encontro2.dll" />
+    </Deployment>
+    <TestTypeSpecific />
+  </TestRunConfiguration>
+  <ResultSummary outcome="Failed">
+    <Counters total="23" executed="23" passed="22" error="0" failed="1" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <Times creation="2009-01-14T23:06:55.5000000-02:00" queuing="2009-01-14T23:06:56.0312500-02:00" start="2009-01-14T23:06:56.0625000-02:00" finish="2009-01-14T23:06:56.2812500-02:00" />
+  <TestDefinitions>
+    <UnitTest name="Validar_Hora_Informando_Hora_E_Minuto" storage="d:\projetos\lab\tdd.encontro2\tdd.encontro2.test\bin\debug\tdd.encontro2.test.dll" id="87c0138e-ebd4-b448-5196-062a03183403">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <DeploymentItems>
+        <DeploymentItem filename="Tdd.Encontro2.dll" />
+      </DeploymentItems>
+      <Execution id="5b24c2be-fcf0-4ad8-8478-53c625f1f2ce" />
+      <TestMethod codeBase="D:\Projetos\Lab\Tdd.Encontro2\Tdd.Encontro2.Test\bin\Debug\Tdd.Encontro2.Test.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Tdd.Encontro2.Test.HoraTest, Tdd.Encontro2.Test" name="Validar_Hora_Informando_Hora_E_Minuto" />
+    </UnitTest>
+    <UnitTest name="Soma_Horas_Com_Segundo_Valor_Negativo_E_Maior_Que_O_Primeiro" storage="d:\projetos\lab\tdd.encontro2\tdd.encontro2.test\bin\debug\tdd.encontro2.test.dll" id="9a01e4b1-e9e7-9517-2dd4-e16f611c53f7">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="0ee452f7-52ac-4317-9c83-c92a5aa1bcd1" />
+      <TestMethod codeBase="D:\Projetos\Lab\Tdd.Encontro2\Tdd.Encontro2.Test\bin\Debug\Tdd.Encontro2.Test.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Tdd.Encontro2.Test.HoraTest, Tdd.Encontro2.Test" name="Soma_Horas_Com_Segundo_Valor_Negativo_E_Maior_Que_O_Primeiro" />
+    </UnitTest>
+    <UnitTest name="Criacao_Hora_Formato_Invalido_Excecao_Esperada" storage="d:\projetos\lab\tdd.encontro2\tdd.encontro2.test\bin\debug\tdd.encontro2.test.dll" id="12de2bcf-b47b-6b6d-fdd8-caf3c9e12274">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="bb4a4c4a-6bba-4b20-9f40-ed040d50d065" />
+      <TestMethod codeBase="D:\Projetos\Lab\Tdd.Encontro2\Tdd.Encontro2.Test\bin\Debug\Tdd.Encontro2.Test.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Tdd.Encontro2.Test.HoraTest, Tdd.Encontro2.Test" name="Criacao_Hora_Formato_Invalido_Excecao_Esperada" />
+    </UnitTest>
+    <UnitTest name="Criacao_Hora_Com_Um_Digito" storage="d:\projetos\lab\tdd.encontro2\tdd.encontro2.test\bin\debug\tdd.encontro2.test.dll" id="ff226b66-6b25-b1d8-c073-9db9e29a7aad">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="09bfa174-2c0b-4aaa-aeb8-59fe1a91ccc7" />
+      <TestMethod codeBase="D:\Projetos\Lab\Tdd.Encontro2\Tdd.Encontro2.Test\bin\Debug\Tdd.Encontro2.Test.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Tdd.Encontro2.Test.HoraTest, Tdd.Encontro2.Test" name="Criacao_Hora_Com_Um_Digito" />
+    </UnitTest>
+    <UnitTest name="Criacao_Hora_Com_Minutos_Invalidos" storage="d:\projetos\lab\tdd.encontro2\tdd.encontro2.test\bin\debug\tdd.encontro2.test.dll" id="1d59d709-b619-1f7e-ec50-a5b4600a3218">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="67fb7cf8-ccc3-4673-890f-bfd93a843e04" />
+      <TestMethod codeBase="D:\Projetos\Lab\Tdd.Encontro2\Tdd.Encontro2.Test\bin\Debug\Tdd.Encontro2.Test.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Tdd.Encontro2.Test.HoraTest, Tdd.Encontro2.Test" name="Criacao_Hora_Com_Minutos_Invalidos" />
+    </UnitTest>
+    <UnitTest name="Validar_Hora_Accessor_Com_Mais_De_Dois_Digitos" storage="d:\projetos\lab\tdd.encontro2\tdd.encontro2.test\bin\debug\tdd.encontro2.test.dll" id="9396bbbe-284c-4b64-5dea-4e7ac9a8e11b">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <DeploymentItems>
+        <DeploymentItem filename="Tdd.Encontro2.dll" />
+      </DeploymentItems>
+      <Execution id="31b5fba1-f2bc-462f-8359-b5c647559a94" />
+      <TestMethod codeBase="D:\Projetos\Lab\Tdd.Encontro2\Tdd.Encontro2.Test\bin\Debug\Tdd.Encontro2.Test.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Tdd.Encontro2.Test.HoraTest, Tdd.Encontro2.Test" name="Validar_Hora_Accessor_Com_Mais_De_Dois_Digitos" />
+    </UnitTest>
+    <UnitTest name="Criacao_Hora_Com_Mais_De_Dois_Digitos" storage="d:\projetos\lab\tdd.encontro2\tdd.encontro2.test\bin\debug\tdd.encontro2.test.dll" id="2c96285b-997b-6029-1f3d-8ac944f7a963">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="a3d265ab-a773-46ae-9f32-295bf1c52d7a" />
+      <TestMethod codeBase="D:\Projetos\Lab\Tdd.Encontro2\Tdd.Encontro2.Test\bin\Debug\Tdd.Encontro2.Test.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Tdd.Encontro2.Test.HoraTest, Tdd.Encontro2.Test" name="Criacao_Hora_Com_Mais_De_Dois_Digitos" />
+    </UnitTest>
+    <UnitTest name="Criacao_Hora_Formato_Invalido" storage="d:\projetos\lab\tdd.encontro2\tdd.encontro2.test\bin\debug\tdd.encontro2.test.dll" id="db8384d3-e4cd-4dfd-44bc-0ea4243bf001">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="331576cc-5b46-4cc8-a117-1150287d4085" />
+      <TestMethod codeBase="D:\Projetos\Lab\Tdd.Encontro2\Tdd.Encontro2.Test\bin\Debug\Tdd.Encontro2.Test.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Tdd.Encontro2.Test.HoraTest, Tdd.Encontro2.Test" name="Criacao_Hora_Formato_Invalido" />
+    </UnitTest>
+    <UnitTest name="Soma_Horas_Com_Minutos_Acima_De_59_Minutos" storage="d:\projetos\lab\tdd.encontro2\tdd.encontro2.test\bin\debug\tdd.encontro2.test.dll" id="0a591512-9faf-3076-fdd8-955ee8ae9da1">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="9965d0f4-5d21-45fd-8237-3b87f02d66cf" />
+      <TestMethod codeBase="D:\Projetos\Lab\Tdd.Encontro2\Tdd.Encontro2.Test\bin\Debug\Tdd.Encontro2.Test.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Tdd.Encontro2.Test.HoraTest, Tdd.Encontro2.Test" name="Soma_Horas_Com_Minutos_Acima_De_59_Minutos" />
+    </UnitTest>
+    <UnitTest name="Criacao_Hora_Negativa" storage="d:\projetos\lab\tdd.encontro2\tdd.encontro2.test\bin\debug\tdd.encontro2.test.dll" id="27aa5d33-fb3f-6650-e7d7-cf288bec1dcd">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="7717bc3f-5b02-4310-8efd-2c6080557b04" />
+      <TestMethod codeBase="D:\Projetos\Lab\Tdd.Encontro2\Tdd.Encontro2.Test\bin\Debug\Tdd.Encontro2.Test.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Tdd.Encontro2.Test.HoraTest, Tdd.Encontro2.Test" name="Criacao_Hora_Negativa" />
+    </UnitTest>
+    <UnitTest name="Criacao_Hora_Nao_Informando_Hora_E_Minuto" storage="d:\projetos\lab\tdd.encontro2\tdd.encontro2.test\bin\debug\tdd.encontro2.test.dll" id="30570865-d9ac-d3ef-c31c-49fbdb9a0b40">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="0993f6ef-6296-4055-ad58-2139192bc297" />
+      <TestMethod codeBase="D:\Projetos\Lab\Tdd.Encontro2\Tdd.Encontro2.Test\bin\Debug\Tdd.Encontro2.Test.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Tdd.Encontro2.Test.HoraTest, Tdd.Encontro2.Test" name="Criacao_Hora_Nao_Informando_Hora_E_Minuto" />
+    </UnitTest>
+    <UnitTest name="Soma_Horas_Com_Mais_De_Um_Digito" storage="d:\projetos\lab\tdd.encontro2\tdd.encontro2.test\bin\debug\tdd.encontro2.test.dll" id="fda06644-92e0-e3aa-75e1-24a912586eab">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="69dac087-cd48-4ae7-9c91-968921112225" />
+      <TestMethod codeBase="D:\Projetos\Lab\Tdd.Encontro2\Tdd.Encontro2.Test\bin\Debug\Tdd.Encontro2.Test.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Tdd.Encontro2.Test.HoraTest, Tdd.Encontro2.Test" name="Soma_Horas_Com_Mais_De_Um_Digito" />
+    </UnitTest>
+    <UnitTest name="Criacao_Hora_Informando_Hora_E_Minuto" storage="d:\projetos\lab\tdd.encontro2\tdd.encontro2.test\bin\debug\tdd.encontro2.test.dll" id="f871ce0e-b3a2-d9c0-06d8-ef4f9a8effe6">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="cabbe3b7-6fce-4a9b-81e1-41631aa7403a" />
+      <TestMethod codeBase="D:\Projetos\Lab\Tdd.Encontro2\Tdd.Encontro2.Test\bin\Debug\Tdd.Encontro2.Test.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Tdd.Encontro2.Test.HoraTest, Tdd.Encontro2.Test" name="Criacao_Hora_Informando_Hora_E_Minuto" />
+    </UnitTest>
+    <UnitTest name="Soma_Horas_Com_Um_Digito" storage="d:\projetos\lab\tdd.encontro2\tdd.encontro2.test\bin\debug\tdd.encontro2.test.dll" id="bd4f39b4-ea7f-7aa9-697c-91efd4a47f9f">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="a9af1120-53c7-4ade-b26d-f5366a8a0e92" />
+      <TestMethod codeBase="D:\Projetos\Lab\Tdd.Encontro2\Tdd.Encontro2.Test\bin\Debug\Tdd.Encontro2.Test.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Tdd.Encontro2.Test.HoraTest, Tdd.Encontro2.Test" name="Soma_Horas_Com_Um_Digito" />
+    </UnitTest>
+    <UnitTest name="Validar_Hora_Accessor_Formato_Invalido" storage="d:\projetos\lab\tdd.encontro2\tdd.encontro2.test\bin\debug\tdd.encontro2.test.dll" id="966015ea-9492-ce91-5e00-6d0130c7c4c2">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <DeploymentItems>
+        <DeploymentItem filename="Tdd.Encontro2.dll" />
+      </DeploymentItems>
+      <Execution id="a53abb0d-b9e8-4b5b-a2fb-6ecea814d171" />
+      <TestMethod codeBase="D:\Projetos\Lab\Tdd.Encontro2\Tdd.Encontro2.Test\bin\Debug\Tdd.Encontro2.Test.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Tdd.Encontro2.Test.HoraTest, Tdd.Encontro2.Test" name="Validar_Hora_Accessor_Formato_Invalido" />
+    </UnitTest>
+    <UnitTest name="Soma_Horas_Com_Valor_Negativo" storage="d:\projetos\lab\tdd.encontro2\tdd.encontro2.test\bin\debug\tdd.encontro2.test.dll" id="17b69b6e-5323-c278-64a5-e4f671fdcdd0">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="d92b771c-402b-4d4f-845d-88f184a9f90a" />
+      <TestMethod codeBase="D:\Projetos\Lab\Tdd.Encontro2\Tdd.Encontro2.Test\bin\Debug\Tdd.Encontro2.Test.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Tdd.Encontro2.Test.HoraTest, Tdd.Encontro2.Test" name="Soma_Horas_Com_Valor_Negativo" />
+    </UnitTest>
+    <UnitTest name="Validar_Hora_Accessor_Com_Um_Digito" storage="d:\projetos\lab\tdd.encontro2\tdd.encontro2.test\bin\debug\tdd.encontro2.test.dll" id="838b3837-8233-5914-e910-5c34a7784584">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <DeploymentItems>
+        <DeploymentItem filename="Tdd.Encontro2.dll" />
+      </DeploymentItems>
+      <Execution id="bccf81c0-3d17-41e1-83ed-90a856ef8d31" />
+      <TestMethod codeBase="D:\Projetos\Lab\Tdd.Encontro2\Tdd.Encontro2.Test\bin\Debug\Tdd.Encontro2.Test.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Tdd.Encontro2.Test.HoraTest, Tdd.Encontro2.Test" name="Validar_Hora_Accessor_Com_Um_Digito" />
+    </UnitTest>
+    <UnitTest name="Validar_Hora_Accessor_Com_Minutos_Invalidos" storage="d:\projetos\lab\tdd.encontro2\tdd.encontro2.test\bin\debug\tdd.encontro2.test.dll" id="c260142c-a0de-e0dc-5854-cfb9bd0c3188">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <DeploymentItems>
+        <DeploymentItem filename="Tdd.Encontro2.dll" />
+      </DeploymentItems>
+      <Execution id="996858bb-5389-4cc3-aed1-38e91b08f259" />
+      <TestMethod codeBase="D:\Projetos\Lab\Tdd.Encontro2\Tdd.Encontro2.Test\bin\Debug\Tdd.Encontro2.Test.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Tdd.Encontro2.Test.HoraTest, Tdd.Encontro2.Test" name="Validar_Hora_Accessor_Com_Minutos_Invalidos" />
+    </UnitTest>
+    <UnitTest name="Criacao_Hora_Sem_Digito_De_Horas" storage="d:\projetos\lab\tdd.encontro2\tdd.encontro2.test\bin\debug\tdd.encontro2.test.dll" id="69e0a0f7-dc17-ae9e-dbd0-5d769f1efdd1">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="a3e6e7ac-4324-4f9c-aacf-47f29fdccf31" />
+      <TestMethod codeBase="D:\Projetos\Lab\Tdd.Encontro2\Tdd.Encontro2.Test\bin\Debug\Tdd.Encontro2.Test.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Tdd.Encontro2.Test.HoraTest, Tdd.Encontro2.Test" name="Criacao_Hora_Sem_Digito_De_Horas" />
+    </UnitTest>
+    <UnitTest name="Validar_Hora_Accessor_Negativa" storage="d:\projetos\lab\tdd.encontro2\tdd.encontro2.test\bin\debug\tdd.encontro2.test.dll" id="db03e5e4-a59c-6ace-488b-3623e4810e11">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <DeploymentItems>
+        <DeploymentItem filename="Tdd.Encontro2.dll" />
+      </DeploymentItems>
+      <Execution id="20514c7a-d9dc-495f-959c-e18100fc0892" />
+      <TestMethod codeBase="D:\Projetos\Lab\Tdd.Encontro2\Tdd.Encontro2.Test\bin\Debug\Tdd.Encontro2.Test.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Tdd.Encontro2.Test.HoraTest, Tdd.Encontro2.Test" name="Validar_Hora_Accessor_Negativa" />
+    </UnitTest>
+    <UnitTest name="Validar_Hora_Accessor_Sem_Digito_De_Hora_Accessors" storage="d:\projetos\lab\tdd.encontro2\tdd.encontro2.test\bin\debug\tdd.encontro2.test.dll" id="29953b7e-4500-8369-72e9-7e1ea948d426">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <DeploymentItems>
+        <DeploymentItem filename="Tdd.Encontro2.dll" />
+      </DeploymentItems>
+      <Execution id="3c2c5c2e-7a30-4fd9-9d35-83265abe224c" />
+      <TestMethod codeBase="D:\Projetos\Lab\Tdd.Encontro2\Tdd.Encontro2.Test\bin\Debug\Tdd.Encontro2.Test.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Tdd.Encontro2.Test.HoraTest, Tdd.Encontro2.Test" name="Validar_Hora_Accessor_Sem_Digito_De_Hora_Accessors" />
+    </UnitTest>
+    <UnitTest name="Soma_Horas_Formato_Invalido" storage="d:\projetos\lab\tdd.encontro2\tdd.encontro2.test\bin\debug\tdd.encontro2.test.dll" id="7e20360e-9201-8939-e474-d22316638795">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="6f833efe-0bc9-427f-ade8-0244601a1131" />
+      <TestMethod codeBase="D:\Projetos\Lab\Tdd.Encontro2\Tdd.Encontro2.Test\bin\Debug\Tdd.Encontro2.Test.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Tdd.Encontro2.Test.HoraTest, Tdd.Encontro2.Test" name="Soma_Horas_Formato_Invalido" />
+    </UnitTest>
+    <UnitTest name="Soma_Horas_Com_Minutos" storage="d:\projetos\lab\tdd.encontro2\tdd.encontro2.test\bin\debug\tdd.encontro2.test.dll" id="182f76e0-c9fd-770c-3077-437237507f22">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="4a7f0eae-2c93-4979-8716-dfebda311c87" />
+      <TestMethod codeBase="D:\Projetos\Lab\Tdd.Encontro2\Tdd.Encontro2.Test\bin\Debug\Tdd.Encontro2.Test.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Tdd.Encontro2.Test.HoraTest, Tdd.Encontro2.Test" name="Soma_Horas_Com_Minutos" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+    <TestList name="Lists of Results" id="8c43106b-9dc1-4907-a29f-aa66a61bf5b6" />
+    <TestList name="Hora" id="15840062-34b0-4acd-bd91-deb70e9d47b0" parentListId="8c43106b-9dc1-4907-a29f-aa66a61bf5b6">
+      <TestLinks>
+        <TestLink id="ff226b66-6b25-b1d8-c073-9db9e29a7aad" name="Criacao_Hora_Com_Um_Digito" storage="d:\projetos\lab\tdd.encontro2\tdd.encontro2.test\bin\debug\tdd.encontro2.test.dll" type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel,   PublicKeyToken=b03f5f7f11d50a3a" />
+        <TestLink id="30570865-d9ac-d3ef-c31c-49fbdb9a0b40" name="Criacao_Hora_Nao_Informando_Hora_E_Minuto" storage="d:\projetos\lab\tdd.encontro2\tdd.encontro2.test\bin\debug\tdd.encontro2.test.dll" type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel,   PublicKeyToken=b03f5f7f11d50a3a" />
+        <TestLink id="12de2bcf-b47b-6b6d-fdd8-caf3c9e12274" name="Criacao_Hora_Formato_Invalido_Excecao_Esperada" storage="d:\projetos\lab\tdd.encontro2\tdd.encontro2.test\bin\debug\tdd.encontro2.test.dll" type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel,   PublicKeyToken=b03f5f7f11d50a3a" />
+        <TestLink id="c260142c-a0de-e0dc-5854-cfb9bd0c3188" name="Validar_Hora_Accessor_Com_Minutos_Invalidos" storage="d:\projetos\lab\tdd.encontro2\tdd.encontro2.test\bin\debug\tdd.encontro2.test.dll" type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel,   PublicKeyToken=b03f5f7f11d50a3a" />
+        <TestLink id="bd4f39b4-ea7f-7aa9-697c-91efd4a47f9f" name="Soma_Horas_Com_Um_Digito" storage="d:\projetos\lab\tdd.encontro2\tdd.encontro2.test\bin\debug\tdd.encontro2.test.dll" type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel,   PublicKeyToken=b03f5f7f11d50a3a" />
+        <TestLink id="27aa5d33-fb3f-6650-e7d7-cf288bec1dcd" name="Criacao_Hora_Negativa" storage="d:\projetos\lab\tdd.encontro2\tdd.encontro2.test\bin\debug\tdd.encontro2.test.dll" type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel,   PublicKeyToken=b03f5f7f11d50a3a" />
+        <TestLink id="838b3837-8233-5914-e910-5c34a7784584" name="Validar_Hora_Accessor_Com_Um_Digito" storage="d:\projetos\lab\tdd.encontro2\tdd.encontro2.test\bin\debug\tdd.encontro2.test.dll" type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel,   PublicKeyToken=b03f5f7f11d50a3a" />
+        <TestLink id="29953b7e-4500-8369-72e9-7e1ea948d426" name="Validar_Hora_Accessor_Sem_Digito_De_Hora_Accessors" storage="d:\projetos\lab\tdd.encontro2\tdd.encontro2.test\bin\debug\tdd.encontro2.test.dll" type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel,   PublicKeyToken=b03f5f7f11d50a3a" />
+        <TestLink id="9a01e4b1-e9e7-9517-2dd4-e16f611c53f7" name="Soma_Horas_Com_Segundo_Valor_Negativo_E_Maior_Que_O_Primeiro" storage="d:\projetos\lab\tdd.encontro2\tdd.encontro2.test\bin\debug\tdd.encontro2.test.dll" type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel,   PublicKeyToken=b03f5f7f11d50a3a" />
+        <TestLink id="182f76e0-c9fd-770c-3077-437237507f22" name="Soma_Horas_Com_Minutos" storage="d:\projetos\lab\tdd.encontro2\tdd.encontro2.test\bin\debug\tdd.encontro2.test.dll" type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel,   PublicKeyToken=b03f5f7f11d50a3a" />
+        <TestLink id="9396bbbe-284c-4b64-5dea-4e7ac9a8e11b" name="Validar_Hora_Accessor_Com_Mais_De_Dois_Digitos" storage="d:\projetos\lab\tdd.encontro2\tdd.encontro2.test\bin\debug\tdd.encontro2.test.dll" type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel,   PublicKeyToken=b03f5f7f11d50a3a" />
+        <TestLink id="fda06644-92e0-e3aa-75e1-24a912586eab" name="Soma_Horas_Com_Mais_De_Um_Digito" storage="d:\projetos\lab\tdd.encontro2\tdd.encontro2.test\bin\debug\tdd.encontro2.test.dll" type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel,   PublicKeyToken=b03f5f7f11d50a3a" />
+        <TestLink id="db03e5e4-a59c-6ace-488b-3623e4810e11" name="Validar_Hora_Accessor_Negativa" storage="d:\projetos\lab\tdd.encontro2\tdd.encontro2.test\bin\debug\tdd.encontro2.test.dll" type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel,   PublicKeyToken=b03f5f7f11d50a3a" />
+        <TestLink id="2c96285b-997b-6029-1f3d-8ac944f7a963" name="Criacao_Hora_Com_Mais_De_Dois_Digitos" storage="d:\projetos\lab\tdd.encontro2\tdd.encontro2.test\bin\debug\tdd.encontro2.test.dll" type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel,   PublicKeyToken=b03f5f7f11d50a3a" />
+        <TestLink id="87c0138e-ebd4-b448-5196-062a03183403" name="Validar_Hora_Informando_Hora_E_Minuto" storage="d:\projetos\lab\tdd.encontro2\tdd.encontro2.test\bin\debug\tdd.encontro2.test.dll" type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel,   PublicKeyToken=b03f5f7f11d50a3a" />
+        <TestLink id="17b69b6e-5323-c278-64a5-e4f671fdcdd0" name="Soma_Horas_Com_Valor_Negativo" storage="d:\projetos\lab\tdd.encontro2\tdd.encontro2.test\bin\debug\tdd.encontro2.test.dll" type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel,   PublicKeyToken=b03f5f7f11d50a3a" />
+        <TestLink id="db8384d3-e4cd-4dfd-44bc-0ea4243bf001" name="Criacao_Hora_Formato_Invalido" storage="d:\projetos\lab\tdd.encontro2\tdd.encontro2.test\bin\debug\tdd.encontro2.test.dll" type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel,   PublicKeyToken=b03f5f7f11d50a3a" />
+        <TestLink id="0a591512-9faf-3076-fdd8-955ee8ae9da1" name="Soma_Horas_Com_Minutos_Acima_De_59_Minutos" storage="d:\projetos\lab\tdd.encontro2\tdd.encontro2.test\bin\debug\tdd.encontro2.test.dll" type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel,   PublicKeyToken=b03f5f7f11d50a3a" />
+        <TestLink id="1d59d709-b619-1f7e-ec50-a5b4600a3218" name="Criacao_Hora_Com_Minutos_Invalidos" storage="d:\projetos\lab\tdd.encontro2\tdd.encontro2.test\bin\debug\tdd.encontro2.test.dll" type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel,   PublicKeyToken=b03f5f7f11d50a3a" />
+        <TestLink id="966015ea-9492-ce91-5e00-6d0130c7c4c2" name="Validar_Hora_Accessor_Formato_Invalido" storage="d:\projetos\lab\tdd.encontro2\tdd.encontro2.test\bin\debug\tdd.encontro2.test.dll" type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel,   PublicKeyToken=b03f5f7f11d50a3a" />
+        <TestLink id="7e20360e-9201-8939-e474-d22316638795" name="Soma_Horas_Formato_Invalido" storage="d:\projetos\lab\tdd.encontro2\tdd.encontro2.test\bin\debug\tdd.encontro2.test.dll" type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel,   PublicKeyToken=b03f5f7f11d50a3a" />
+        <TestLink id="69e0a0f7-dc17-ae9e-dbd0-5d769f1efdd1" name="Criacao_Hora_Sem_Digito_De_Horas" storage="d:\projetos\lab\tdd.encontro2\tdd.encontro2.test\bin\debug\tdd.encontro2.test.dll" type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel,   PublicKeyToken=b03f5f7f11d50a3a" />
+        <TestLink id="f871ce0e-b3a2-d9c0-06d8-ef4f9a8effe6" name="Criacao_Hora_Informando_Hora_E_Minuto" storage="d:\projetos\lab\tdd.encontro2\tdd.encontro2.test\bin\debug\tdd.encontro2.test.dll" type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel,   PublicKeyToken=b03f5f7f11d50a3a" />
+      </TestLinks>
+    </TestList>
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="87c0138e-ebd4-b448-5196-062a03183403" executionId="5b24c2be-fcf0-4ad8-8478-53c625f1f2ce" testListId="15840062-34b0-4acd-bd91-deb70e9d47b0" />
+    <TestEntry testId="12de2bcf-b47b-6b6d-fdd8-caf3c9e12274" executionId="bb4a4c4a-6bba-4b20-9f40-ed040d50d065" testListId="15840062-34b0-4acd-bd91-deb70e9d47b0" />
+    <TestEntry testId="ff226b66-6b25-b1d8-c073-9db9e29a7aad" executionId="09bfa174-2c0b-4aaa-aeb8-59fe1a91ccc7" testListId="15840062-34b0-4acd-bd91-deb70e9d47b0" />
+    <TestEntry testId="1d59d709-b619-1f7e-ec50-a5b4600a3218" executionId="67fb7cf8-ccc3-4673-890f-bfd93a843e04" testListId="15840062-34b0-4acd-bd91-deb70e9d47b0" />
+    <TestEntry testId="2c96285b-997b-6029-1f3d-8ac944f7a963" executionId="a3d265ab-a773-46ae-9f32-295bf1c52d7a" testListId="15840062-34b0-4acd-bd91-deb70e9d47b0" />
+    <TestEntry testId="db8384d3-e4cd-4dfd-44bc-0ea4243bf001" executionId="331576cc-5b46-4cc8-a117-1150287d4085" testListId="15840062-34b0-4acd-bd91-deb70e9d47b0" />
+    <TestEntry testId="27aa5d33-fb3f-6650-e7d7-cf288bec1dcd" executionId="7717bc3f-5b02-4310-8efd-2c6080557b04" testListId="15840062-34b0-4acd-bd91-deb70e9d47b0" />
+    <TestEntry testId="30570865-d9ac-d3ef-c31c-49fbdb9a0b40" executionId="0993f6ef-6296-4055-ad58-2139192bc297" testListId="15840062-34b0-4acd-bd91-deb70e9d47b0" />
+    <TestEntry testId="fda06644-92e0-e3aa-75e1-24a912586eab" executionId="69dac087-cd48-4ae7-9c91-968921112225" testListId="15840062-34b0-4acd-bd91-deb70e9d47b0" />
+    <TestEntry testId="9396bbbe-284c-4b64-5dea-4e7ac9a8e11b" executionId="31b5fba1-f2bc-462f-8359-b5c647559a94" testListId="15840062-34b0-4acd-bd91-deb70e9d47b0" />
+    <TestEntry testId="f871ce0e-b3a2-d9c0-06d8-ef4f9a8effe6" executionId="cabbe3b7-6fce-4a9b-81e1-41631aa7403a" testListId="15840062-34b0-4acd-bd91-deb70e9d47b0" />
+    <TestEntry testId="69e0a0f7-dc17-ae9e-dbd0-5d769f1efdd1" executionId="a3e6e7ac-4324-4f9c-aacf-47f29fdccf31" testListId="15840062-34b0-4acd-bd91-deb70e9d47b0" />
+    <TestEntry testId="17b69b6e-5323-c278-64a5-e4f671fdcdd0" executionId="d92b771c-402b-4d4f-845d-88f184a9f90a" testListId="15840062-34b0-4acd-bd91-deb70e9d47b0" />
+    <TestEntry testId="838b3837-8233-5914-e910-5c34a7784584" executionId="bccf81c0-3d17-41e1-83ed-90a856ef8d31" testListId="15840062-34b0-4acd-bd91-deb70e9d47b0" />
+    <TestEntry testId="7e20360e-9201-8939-e474-d22316638795" executionId="6f833efe-0bc9-427f-ade8-0244601a1131" testListId="15840062-34b0-4acd-bd91-deb70e9d47b0" />
+    <TestEntry testId="c260142c-a0de-e0dc-5854-cfb9bd0c3188" executionId="996858bb-5389-4cc3-aed1-38e91b08f259" testListId="15840062-34b0-4acd-bd91-deb70e9d47b0" />
+    <TestEntry testId="966015ea-9492-ce91-5e00-6d0130c7c4c2" executionId="a53abb0d-b9e8-4b5b-a2fb-6ecea814d171" testListId="15840062-34b0-4acd-bd91-deb70e9d47b0" />
+    <TestEntry testId="db03e5e4-a59c-6ace-488b-3623e4810e11" executionId="20514c7a-d9dc-495f-959c-e18100fc0892" testListId="15840062-34b0-4acd-bd91-deb70e9d47b0" />
+    <TestEntry testId="29953b7e-4500-8369-72e9-7e1ea948d426" executionId="3c2c5c2e-7a30-4fd9-9d35-83265abe224c" testListId="15840062-34b0-4acd-bd91-deb70e9d47b0" />
+    <TestEntry testId="bd4f39b4-ea7f-7aa9-697c-91efd4a47f9f" executionId="a9af1120-53c7-4ade-b26d-f5366a8a0e92" testListId="15840062-34b0-4acd-bd91-deb70e9d47b0" />
+    <TestEntry testId="182f76e0-c9fd-770c-3077-437237507f22" executionId="4a7f0eae-2c93-4979-8716-dfebda311c87" testListId="15840062-34b0-4acd-bd91-deb70e9d47b0" />
+    <TestEntry testId="0a591512-9faf-3076-fdd8-955ee8ae9da1" executionId="9965d0f4-5d21-45fd-8237-3b87f02d66cf" testListId="15840062-34b0-4acd-bd91-deb70e9d47b0" />
+    <TestEntry testId="9a01e4b1-e9e7-9517-2dd4-e16f611c53f7" executionId="0ee452f7-52ac-4317-9c83-c92a5aa1bcd1" testListId="15840062-34b0-4acd-bd91-deb70e9d47b0" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="5b24c2be-fcf0-4ad8-8478-53c625f1f2ce" testId="87c0138e-ebd4-b448-5196-062a03183403" testName="Validar_Hora_Informando_Hora_E_Minuto" computerName="MATRIX" duration="00:00:00.0220636" startTime="2009-01-14T23:06:56.0625000-02:00" endTime="2009-01-14T23:06:56.1562500-02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="15840062-34b0-4acd-bd91-deb70e9d47b0">
+      <Output>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="bb4a4c4a-6bba-4b20-9f40-ed040d50d065" testId="12de2bcf-b47b-6b6d-fdd8-caf3c9e12274" testName="Criacao_Hora_Formato_Invalido_Excecao_Esperada" computerName="MATRIX" duration="00:00:00.0006199" startTime="2009-01-14T23:06:56.1562500-02:00" endTime="2009-01-14T23:06:56.1562500-02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="15840062-34b0-4acd-bd91-deb70e9d47b0">
+      <Output>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="09bfa174-2c0b-4aaa-aeb8-59fe1a91ccc7" testId="ff226b66-6b25-b1d8-c073-9db9e29a7aad" testName="Criacao_Hora_Com_Um_Digito" computerName="MATRIX" duration="00:00:00.0003676" startTime="2009-01-14T23:06:56.1562500-02:00" endTime="2009-01-14T23:06:56.1562500-02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="15840062-34b0-4acd-bd91-deb70e9d47b0">
+      <Output>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="67fb7cf8-ccc3-4673-890f-bfd93a843e04" testId="1d59d709-b619-1f7e-ec50-a5b4600a3218" testName="Criacao_Hora_Com_Minutos_Invalidos" computerName="MATRIX" duration="00:00:00.0005201" startTime="2009-01-14T23:06:56.1562500-02:00" endTime="2009-01-14T23:06:56.1718750-02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="15840062-34b0-4acd-bd91-deb70e9d47b0">
+      <Output>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="a3d265ab-a773-46ae-9f32-295bf1c52d7a" testId="2c96285b-997b-6029-1f3d-8ac944f7a963" testName="Criacao_Hora_Com_Mais_De_Dois_Digitos" computerName="MATRIX" duration="00:00:00.0002880" startTime="2009-01-14T23:06:56.1718750-02:00" endTime="2009-01-14T23:06:56.1718750-02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="15840062-34b0-4acd-bd91-deb70e9d47b0">
+      <Output>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="331576cc-5b46-4cc8-a117-1150287d4085" testId="db8384d3-e4cd-4dfd-44bc-0ea4243bf001" testName="Criacao_Hora_Formato_Invalido" computerName="MATRIX" duration="00:00:00.0003763" startTime="2009-01-14T23:06:56.1718750-02:00" endTime="2009-01-14T23:06:56.1718750-02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="15840062-34b0-4acd-bd91-deb70e9d47b0">
+      <Output>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="7717bc3f-5b02-4310-8efd-2c6080557b04" testId="27aa5d33-fb3f-6650-e7d7-cf288bec1dcd" testName="Criacao_Hora_Negativa" computerName="MATRIX" duration="00:00:00.0003654" startTime="2009-01-14T23:06:56.1718750-02:00" endTime="2009-01-14T23:06:56.1718750-02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="15840062-34b0-4acd-bd91-deb70e9d47b0">
+      <Output>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="0993f6ef-6296-4055-ad58-2139192bc297" testId="30570865-d9ac-d3ef-c31c-49fbdb9a0b40" testName="Criacao_Hora_Nao_Informando_Hora_E_Minuto" computerName="MATRIX" duration="00:00:00.0002676" startTime="2009-01-14T23:06:56.1718750-02:00" endTime="2009-01-14T23:06:56.1875000-02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="15840062-34b0-4acd-bd91-deb70e9d47b0">
+      <Output>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="69dac087-cd48-4ae7-9c91-968921112225" testId="fda06644-92e0-e3aa-75e1-24a912586eab" testName="Soma_Horas_Com_Mais_De_Um_Digito" computerName="MATRIX" duration="00:00:00.0011372" startTime="2009-01-14T23:06:56.1875000-02:00" endTime="2009-01-14T23:06:56.1875000-02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="15840062-34b0-4acd-bd91-deb70e9d47b0">
+      <Output>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="31b5fba1-f2bc-462f-8359-b5c647559a94" testId="9396bbbe-284c-4b64-5dea-4e7ac9a8e11b" testName="Validar_Hora_Accessor_Com_Mais_De_Dois_Digitos" computerName="MATRIX" duration="00:00:00.0003450" startTime="2009-01-14T23:06:56.1875000-02:00" endTime="2009-01-14T23:06:56.1875000-02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="15840062-34b0-4acd-bd91-deb70e9d47b0">
+      <Output>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="cabbe3b7-6fce-4a9b-81e1-41631aa7403a" testId="f871ce0e-b3a2-d9c0-06d8-ef4f9a8effe6" testName="Criacao_Hora_Informando_Hora_E_Minuto" computerName="MATRIX" duration="00:00:00.0002843" startTime="2009-01-14T23:06:56.1875000-02:00" endTime="2009-01-14T23:06:56.1875000-02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="15840062-34b0-4acd-bd91-deb70e9d47b0">
+      <Output>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="a3e6e7ac-4324-4f9c-aacf-47f29fdccf31" testId="69e0a0f7-dc17-ae9e-dbd0-5d769f1efdd1" testName="Criacao_Hora_Sem_Digito_De_Horas" computerName="MATRIX" duration="00:00:00.0003754" startTime="2009-01-14T23:06:56.1875000-02:00" endTime="2009-01-14T23:06:56.1875000-02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="15840062-34b0-4acd-bd91-deb70e9d47b0">
+      <Output>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="d92b771c-402b-4d4f-845d-88f184a9f90a" testId="17b69b6e-5323-c278-64a5-e4f671fdcdd0" testName="Soma_Horas_Com_Valor_Negativo" computerName="MATRIX" duration="00:00:00.0003148" startTime="2009-01-14T23:06:56.2031250-02:00" endTime="2009-01-14T23:06:56.2031250-02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="15840062-34b0-4acd-bd91-deb70e9d47b0">
+      <Output>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="bccf81c0-3d17-41e1-83ed-90a856ef8d31" testId="838b3837-8233-5914-e910-5c34a7784584" testName="Validar_Hora_Accessor_Com_Um_Digito" computerName="MATRIX" duration="00:00:00.0003042" startTime="2009-01-14T23:06:56.2031250-02:00" endTime="2009-01-14T23:06:56.2031250-02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="15840062-34b0-4acd-bd91-deb70e9d47b0">
+      <Output>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="6f833efe-0bc9-427f-ade8-0244601a1131" testId="7e20360e-9201-8939-e474-d22316638795" testName="Soma_Horas_Formato_Invalido" computerName="MATRIX" duration="00:00:00.0003880" startTime="2009-01-14T23:06:56.2031250-02:00" endTime="2009-01-14T23:06:56.2031250-02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="15840062-34b0-4acd-bd91-deb70e9d47b0">
+      <Output>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="996858bb-5389-4cc3-aed1-38e91b08f259" testId="c260142c-a0de-e0dc-5854-cfb9bd0c3188" testName="Validar_Hora_Accessor_Com_Minutos_Invalidos" computerName="MATRIX" duration="00:00:00.0032995" startTime="2009-01-14T23:06:56.2031250-02:00" endTime="2009-01-14T23:06:56.2187500-02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="15840062-34b0-4acd-bd91-deb70e9d47b0">
+      <Output>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="a53abb0d-b9e8-4b5b-a2fb-6ecea814d171" testId="966015ea-9492-ce91-5e00-6d0130c7c4c2" testName="Validar_Hora_Accessor_Formato_Invalido" computerName="MATRIX" duration="00:00:00.0009680" startTime="2009-01-14T23:06:56.2187500-02:00" endTime="2009-01-14T23:06:56.2187500-02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="15840062-34b0-4acd-bd91-deb70e9d47b0">
+      <Output>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="20514c7a-d9dc-495f-959c-e18100fc0892" testId="db03e5e4-a59c-6ace-488b-3623e4810e11" testName="Validar_Hora_Accessor_Negativa" computerName="MATRIX" duration="00:00:00.0002994" startTime="2009-01-14T23:06:56.2187500-02:00" endTime="2009-01-14T23:06:56.2187500-02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="15840062-34b0-4acd-bd91-deb70e9d47b0">
+      <Output>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="3c2c5c2e-7a30-4fd9-9d35-83265abe224c" testId="29953b7e-4500-8369-72e9-7e1ea948d426" testName="Validar_Hora_Accessor_Sem_Digito_De_Hora_Accessors" computerName="MATRIX" duration="00:00:00.0008523" startTime="2009-01-14T23:06:56.2187500-02:00" endTime="2009-01-14T23:06:56.2187500-02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="15840062-34b0-4acd-bd91-deb70e9d47b0">
+      <Output>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="a9af1120-53c7-4ade-b26d-f5366a8a0e92" testId="bd4f39b4-ea7f-7aa9-697c-91efd4a47f9f" testName="Soma_Horas_Com_Um_Digito" computerName="MATRIX" duration="00:00:00.0003592" startTime="2009-01-14T23:06:56.2187500-02:00" endTime="2009-01-14T23:06:56.2343750-02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="15840062-34b0-4acd-bd91-deb70e9d47b0">
+      <Output>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="4a7f0eae-2c93-4979-8716-dfebda311c87" testId="182f76e0-c9fd-770c-3077-437237507f22" testName="Soma_Horas_Com_Minutos" computerName="MATRIX" duration="00:00:00.0003031" startTime="2009-01-14T23:06:56.2343750-02:00" endTime="2009-01-14T23:06:56.2343750-02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="15840062-34b0-4acd-bd91-deb70e9d47b0">
+      <Output>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="9965d0f4-5d21-45fd-8237-3b87f02d66cf" testId="0a591512-9faf-3076-fdd8-955ee8ae9da1" testName="Soma_Horas_Com_Minutos_Acima_De_59_Minutos" computerName="MATRIX" duration="00:00:00.0002966" startTime="2009-01-14T23:06:56.2343750-02:00" endTime="2009-01-14T23:06:56.2343750-02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="15840062-34b0-4acd-bd91-deb70e9d47b0">
+      <Output>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="0ee452f7-52ac-4317-9c83-c92a5aa1bcd1" testId="9a01e4b1-e9e7-9517-2dd4-e16f611c53f7" testName="Soma_Horas_Com_Segundo_Valor_Negativo_E_Maior_Que_O_Primeiro" computerName="MATRIX" duration="00:00:00.0361911" startTime="2009-01-14T23:06:56.2343750-02:00" endTime="2009-01-14T23:06:56.2812500-02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="15840062-34b0-4acd-bd91-deb70e9d47b0">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.AreEqual failed. Expected:&lt;-429:51&gt;. Actual:&lt;-429:-51&gt;. </Message>
+          <StackTrace>   at Tdd.Encontro2.Test.HoraTest.Soma_Horas_Com_Segundo_Valor_Negativo_E_Maior_Que_O_Primeiro() in D:\Projetos\Lab\Tdd.Encontro2\Tdd.Encontro2.Test\HoraTest.cs:line 299
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>

@@ -281,17 +281,22 @@ namespace Tdd.Encontro2.Test
             }
         }
 
+        [TestMethod]
+        public void Soma_Horas_Com_Soma_Dos_Minutos_Acima_De_59_Minutos()
+        {
+            Hora hora = new Hora("1:59");
+            hora.SomaHoras("2:59");
 
+            Assert.AreEqual<string>("4:58", hora.ToString());
+        }
 
-        //TODO: Next step - To add one hour in Hora when the minutes are greaters that 59
-        //[TestMethod]
-        //public void Soma_Horas_Com_Minutos_Acima_De_59_Minutos()
-        //{
-        //    Hora hora = new Hora("1:50");
-        //    hora.SomaHoras("2:30");
+        [TestMethod]
+        public void Soma_Horas_Com_Segundo_Valor_Negativo_E_Maior_Que_O_Primeiro()
+        {
+            Hora hora = new Hora("23:09");
+            hora.SomaHoras("-453:00");
 
-        //    Assert.AreEqual<string>("4:20", hora.ToString());
-        //}
-        //TODO: Criar testes de ValidarHora passando nulo e "vazio".
+            Assert.AreEqual<string>("-429:51", hora.ToString());
+        }
     }
 }

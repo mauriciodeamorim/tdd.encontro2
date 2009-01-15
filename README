@@ -1,8 +1,9 @@
-Problema
+﻿Problema
 
 Representar as horas dos estudantes de uma faculdade. Começar por um item simples e incrementar a cada passo.
 
 Passos:
+Implementados e testados
 1) Representar uma hora qualquer no formato hh:mm
 2) Permitir a criação de uma hora padrão ("00:00")
 3) Não permitir criação de uma hora fora do formato hh:mm
@@ -10,6 +11,8 @@ Passos:
 5) Pode representar horas acima de 23:59, então uma hora como 300:00 é válida
 6) Horas negativas são válidas.  Ex.: -36:00
 7) Deve ser possível fazer soma de horas
+
+A resolver
 8) Informar horas do aluno para cada mês e exibir a soma 
 
 

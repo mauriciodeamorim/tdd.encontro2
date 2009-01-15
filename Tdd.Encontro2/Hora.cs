@@ -34,19 +34,11 @@ namespace Tdd.Encontro2
             string[] horaAtual = this.hora.Split(':');
             string[] horaAdicional = hora.Split(':');
 
-            int somenteHoras = Convert.ToInt32(horaAtual[0]);
-            int somenteHorasAdicionais = Convert.ToInt32(horaAdicional[0]);
+            TimeSpan tsHoraAtual = new TimeSpan(int.Parse(horaAtual[0]), int.Parse(horaAtual[1]), 0);
+            TimeSpan tsHoraAdicional = new TimeSpan(int.Parse(horaAdicional[0]), int.Parse(horaAdicional[1]), 0);
 
-            int somenteMinutos = int.Parse(horaAtual[1]);
-            int somenteMinutosAdicionais = int.Parse(horaAdicional[1]);
+            this.hora = FormataSoma(tsHoraAtual.Add(tsHoraAdicional));
 
-            DateTime dt = new DateTime();
-            TimeSpan ts = new TimeSpan();
-
-            int somaHoras = somenteHoras + somenteHorasAdicionais;
-            int somaMinutos = somenteMinutos + somenteMinutosAdicionais;
-
-            this.hora = somaHoras.ToString() + ":" + somaMinutos.ToString().PadLeft(2, '0');
         }
 
         private void ValidarHora(string hora)
@@ -55,6 +47,14 @@ namespace Tdd.Encontro2
             {
                 throw (new ArgumentException("Formato de Hora inválido: " + hora));
             }
+        }
+
+        private string FormataSoma(TimeSpan tsSomaHoras)
+        {
+            string horaFormatadas = ((tsSomaHoras.Days * 24) + (tsSomaHoras.Hours)).ToString();
+            string minutosFormatados = ((tsSomaHoras.Minutes < 0)? (tsSomaHoras.Minutes * -1): tsSomaHoras.Minutes).ToString().PadLeft(2, '0');
+
+            return hora = string.Format("{0}:{1}", horaFormatadas, minutosFormatados);
         }
     }
 }
