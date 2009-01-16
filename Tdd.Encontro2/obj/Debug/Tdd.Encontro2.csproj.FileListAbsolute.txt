@@ -1,5 +1,0 @@
-D:\Projetos\Lab\Tdd.Encontro2\Tdd.Encontro2\bin\Debug\Tdd.Encontro2.dll
-D:\Projetos\Lab\Tdd.Encontro2\Tdd.Encontro2\bin\Debug\Tdd.Encontro2.pdb
-D:\Projetos\Lab\Tdd.Encontro2\Tdd.Encontro2\obj\Debug\ResolveAssemblyReference.cache
-D:\Projetos\Lab\Tdd.Encontro2\Tdd.Encontro2\obj\Debug\Tdd.Encontro2.dll
-D:\Projetos\Lab\Tdd.Encontro2\Tdd.Encontro2\obj\Debug\Tdd.Encontro2.pdb
